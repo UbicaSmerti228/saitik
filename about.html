@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас - Ваше Название</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="shapes">
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+  </div>
+
+  <div id="toast-container"></div>
+  <header>
+    <div class="container header-container">
+      <nav class="main-links-nav">
+        <a href="index.html" class="nav-link">Меню</a>
+        <a href="about.html" class="nav-link active">О нас</a>
+      </nav>
+      <div class="header-controls">
+        <button id="cartButton" class="cart-icon" aria-label="Корзина">
+            🛒 <span id="cartCounter">0</span>
+         </button>
+         <button id="mobileMenuToggle" class="hamburger" aria-label="Меню" aria-expanded="false">☰</button>
+      </div>
+      <nav class="mobile-nav" id="mobileNav">
+          <a href="index.html" class="category-button">Меню</a>
+          <a href="about.html" class="category-button active">О нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="about-page-container">
+      <h1>О нас</h1>
+
+      <section class="info-section">
+        <h2>Условия доставки и работы</h2>
+        <div class="info-item">
+          <span class="icon">🚗</span>
+          <p>Бесплатная доставка по Верхнеяркеево от 1200₽.</p>
+        </div>
+        <div class="info-item">
+          <span class="icon">⏰</span>
+          <p>Режим работы: <strong>ЕЖЕДНЕВНО С 11:00 до 22:00</strong>.</p>
+        </div>
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <p>Адрес: с. Верхнеяркеево, ул. Коммунистическая, 52/1.</p>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <h2>Контакты</h2>
+        <div class="info-item">
+          <span class="icon">📞</span>
+          <p>Телефон (WhatsApp и звонки): <a href="tel:+79374897407">+7 (937) 489-74-07</a>.</p>
+        </div>
+        <div class="info-item">
+          <span class="icon">📞</span>
+           <p>Телефон (только звонки): <a href="tel:+79173437380">+7 (917) 343-73-80</a>.</p>
+        </div>
+      </section>
+
+      <section class="info-section special-offers">
+        <h2>Специальные предложения</h2>
+        <p>🎁 Морс в подарок при самовывозе от 1200₽!</p>
+        <p>🍣 Ролл "За сотку" при сумме заказа от 800₽!</p>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
